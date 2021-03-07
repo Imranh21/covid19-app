@@ -4,7 +4,7 @@ import NumberFormat from "react-number-format";
 import styles from "./Global.module.css";
 import Loader from "../loading/Loader";
 
-const URL = "https://disease.sh/v3/covid-19/all";
+const URL = "https://cors-anywhere.herokuapp.com/https://disease.sh/v3/covid-19/all";
 
 const Global = () => {
   const [loading, setLoading] = useState(true);

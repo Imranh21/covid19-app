@@ -4,7 +4,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import styles from "./CountryList.module.css";
 import CountryCard from "./CountryCard";
 
-const URL = "https://disease.sh/v3/covid-19/countries";
+const URL = "https://cors-anywhere.herokuapp.com/https://disease.sh/v3/covid-19/countries";
 
 const CountryList = () => {
   const [searchField, setSearchField] = useState("");

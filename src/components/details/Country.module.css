@@ -1,0 +1,59 @@
+.section {
+    width: 100%;
+  }
+  .container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .backBtn {
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    background: rgb(60, 177, 255);
+    border-radius: 50px;
+    color: rgb(239, 248, 255);
+  }
+  
+  .flag {
+    width: 100%;
+    min-height: 260px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container h3 {
+    font-size: 28px;
+    text-align: left;
+    padding: 20px 0;
+    color: rgb(60, 177, 255);
+  }
+  .boxContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  
+  .box {
+    background: rgb(241, 253, 255);
+    padding: 30px;
+    text-align: left;
+  }
+  .box NumberFormat {
+    font-size: 22px;
+  }
+  .box p {
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+  }
+  
+  @media all and (max-width: 480px) {
+    .container {
+      width: 90%;
+    }
+    .boxContainer {
+      grid-template-columns: 1fr;
+    }
+  }
+  

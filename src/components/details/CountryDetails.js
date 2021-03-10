@@ -30,7 +30,7 @@ const CountryDetails = () => {
 
   useEffect(() => {
     axios
-      .get(`https://cors-anywhere.herokuapp.com/https://disease.sh/v3/covid-19/countries/${name}`)
+      .get(`https://disease.sh/v3/covid-19/countries/${name}`)
       .then((res) => {
         setCountryDetail(res.data);
         setLoading(false);

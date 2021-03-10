@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import ReactMapGL, { Marker } from "react-map-gl";
+import 'mapbox-gl/dist/mapbox-gl.css';
 import styles from "./Header.module.css";
 import RedMarker from "./RedMarker";
 
